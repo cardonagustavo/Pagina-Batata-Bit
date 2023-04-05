@@ -9,7 +9,7 @@ https://bem-cheat-sheet.9elements.com/#
 5 . Otros
 */
 
-:root {
+:root { 
     /*colores, creamos variable de color ya que los vamos a estar usando con frecuencia*/
     --bitcoin-orange: #f7931a;
     --soft-orange: #ffe9d5;
@@ -102,7 +102,7 @@ header img {
     width: 14px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('../Practica-Platzi/icons/down-arrow.svg'); /*para direccionar hacia una imagen que esta fuera de nuestra carpeta usamos (../), esto nos lleva a fuera de la carpeta y así podemos buscar nuestra imagen*/
+    background-image: url('../icons/down-arrow.svg'); /*para direccionar hacia una imagen que esta fuera de nuestra carpeta usamos (../), esto nos lleva a fuera de la carpeta y así podemos buscar nuestra imagen*/
 }
 
 main {
@@ -131,7 +131,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url(../Practica-Platzi/img/Bitcoin.svg);
+    background-image: url(../img/Bitcoin.svg);
     background-size: cover; /* */
     background-position: center; /* Este nos ayuda a que siempre sin importar el tamaño del contenedor o de la imagen nosotros la  podamos ver en el centro*/
     background-repeat: no-repeat; /* Este lo usamos ya que si la imagen es mas pequeña que el contenedor, background-image lo que hace es replicar la imagen para ocupar el espacio*/
@@ -221,7 +221,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(../Practica-Platzi/icons/trending-down.svg);
+    background-image: url(../icons/trending-down.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(../Practica-Platzi/icons/trending-up.svg);
+    background-image: url(../icons/trending-up.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,7 +270,7 @@ main {
     height: 25px;
     top: -10px;
     left: calc(50% - 20px);
-    background-image: url(../Practica-Platzi/icons/batata.svg);
+    background-image: url(../icons/batata.svg);
 }
 
 .product-detalle--title {
@@ -315,7 +315,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../Practica-Platzi/icons/clock.svg);
+    background-image: url(../icons/clock.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../Practica-Platzi/icons/eye.svg);
+    background-image: url(../icons/eye.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -351,7 +351,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../Practica-Platzi/icons/dollar-sign.svg);
+    background-image: url(../icons/dollar-sign.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -361,7 +361,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../Practica-Platzi/icons/check-circle.svg);
+    background-image: url(../icons/check-circle.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -371,7 +371,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url(../Practica-Platzi/img/bitcoinbaby2x.jpg);
+    background-image: url(../img/bitcoinbaby2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -498,7 +498,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../Practica-Platzi/icons/orange-right-arrow.svg);
+    background-image: url(../icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
 }
 
